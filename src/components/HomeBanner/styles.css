@@ -1,0 +1,213 @@
+/*-------- Start Banner Area ------------*/
+.banner-area {
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-area .overlay-bg {
+    background: rgba(4, 9, 30, 0.4);
+}
+
+@media (max-width: 767px) {
+    .banner-area .fullscreen {
+        height: auto !important;
+    }
+}
+
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.banner-left h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+    .banner-left h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 413px) {
+    .banner-left h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .banner-left h1 {
+        font-size: 36px;
+    }
+
+    .banner-left h6 {
+        font-size: 12px;
+    }
+}
+
+.banner-left p {
+    margin: 20px 0px;
+}
+
+.banner-left .primary-btn {
+    background: #f8b600;
+}
+
+.banner-left .primary-btn:hover {
+    background: #222;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .banner-left {
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+}
+
+.banner-right .nav-tabs {
+    border-bottom: none;
+}
+
+.banner-right .nav-item {
+    background: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 1px;
+}
+
+.banner-right .nav-item a {
+    color: #fff;
+}
+
+.banner-right .nav-item:hover a {
+    border-color: transparent !important;
+}
+
+.banner-right .nav-tabs .nav-link {
+    border-radius: 0 !important;
+}
+
+.banner-right .tab-content {
+    background: #fff;
+}
+
+.banner-right .form-wrap {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.banner-right .form-wrap .form-control, .banner-right .form-wrap input, 
+.banner-right .form-wrap .form-control, .banner-right .form-wrap select {
+    padding: 0.675rem 0.75rem;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border-color: #eee;
+    width: 100%;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.banner-right .form-wrap .form-control:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 1024px) {
+    .banner-right {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-right {
+        padding-bottom: 50px;
+    }
+}
+
+/*-------- End Banner Area ------------*/
+/*-------- start Popular-destination Area ------------*/
+.single-destination {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-destination .overlay-bg {
+    background: rgba(4, 9, 30, 0.4);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+
+.single-destination .thumb {
+    position: relative;
+}
+
+.single-destination .thumb img {
+    width: 100%;
+}
+
+.single-destination .desc {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.single-destination .desc .price-btn {
+    background: #f8b600;
+    text-align: center;
+    color: #222;
+    padding: 6px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-destination .desc h4 {
+    color: #fff;
+}
+
+.single-destination .desc p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.single-destination:hover .price-btn {
+    opacity: 1;
+}
+
+.single-destination:hover .overlay-bg {
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .single-destination {
+        margin-bottom: 30px;
+    }
+}

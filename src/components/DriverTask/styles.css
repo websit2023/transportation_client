@@ -1,0 +1,14 @@
+.driver-task {
+    border: 1px solid #eee;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.driver-task h1 {
+    font-size: 20px;
+}
+
+.driver-task p {
+    font-size: 16px;
+}

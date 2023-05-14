@@ -1,0 +1,158 @@
+.overlay-trip-picker {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.trip-picker {}
+
+.trip-picker .vehicle {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 8px 0;
+}
+
+.trip-picker .vehicle img {
+    width: 100%;
+}
+
+.trip-picker .vehicle .vehicle-name {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.trip-picker .vehicle .vehicle-name span:last-child {
+    color: #f93707;
+}
+
+.trip-picker .vehicle p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.trip-picker .vehicle p span {
+    margin-left: 4px;
+}
+
+.trip-picker .vehicle .mark-down {
+    margin: 4px 0;
+}
+
+.trip-picker .chair-selector {
+    margin-top: 16px;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 8px 0;
+}
+
+@media screen and (max-width: 567px) {
+    .trip-picker .guide {
+        display: flex;
+    }
+}
+
+.trip-picker .guide .guide-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.trip-picker .guide .chair-info {
+    margin-left: 8px;
+}
+
+.trip-picker .guide p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 16px;
+
+}
+
+.trip-picker .guide span {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.trip-picker .chair-selector .virtual-vehicle {
+    display: flex;
+}
+
+.chair-selector .virtual-vehicle .top-chair,
+.chair-selector .virtual-vehicle .bot-chair {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.chair-selector .virtual-vehicle .top-chair {
+    border-right: 1px solid #dcdcdc;
+}
+
+.chair-selector .virtual-vehicle h6 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.chair-selector .chairs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chair-selector .chair-item {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.chair-selector .chair-item:nth-child(odd) {
+    text-align: end;
+}
+
+.chair-selector .chair-item:nth-child(even) {
+    text-align: start;
+}
+
+.chair-selector .chair {
+    cursor: pointer;
+    min-width: 22px;
+    min-height: 30px;
+    padding: 0 2px;
+}
+
+.chair-selector .chair rect {
+    stroke: rgb(71, 202, 255);
+}
+
+.chair-selector .chair--selecting rect {
+    stroke: rgb(255, 112, 166);
+}
+
+.chair-selector .chair--selected rect {
+    stroke: rgb(39, 174, 96) !important;
+    fill: rgb(139, 229, 176) !important;
+}
+
+.trip-picker .subscription {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.subscription .submit {
+    margin-left: 12px;
+}
+
+.subscription .submit button {
+    background-color: #14a7fa;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.subscription .submit--disable button {
+    background-color: #777 !important;
+}
+
+.subscription .total-price span {
+    font-weight: 700;
+}

@@ -1,0 +1,52 @@
+.checkout input:focus {
+    box-shadow: none;
+}
+
+.checkout .custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    appearance: none;
+}
+
+.checkout .border-secondary {
+    border-color: #EDF1FF !important;
+}
+
+.checkout .bg-secondary {
+    background-color: #EDF1FF !important;
+}
+
+.checkout .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+}
+
+.checkout .custom-radio input {
+    width: 20px;
+    height: 20px;
+}
+
+.checkout .custom-radio label {
+    margin-left: 8px;
+}
+
+.checkout .card-footer button{
+    width: 100%;
+}
+
+.checkout .no-booked {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
